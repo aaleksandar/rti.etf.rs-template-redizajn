@@ -1,0 +1,228 @@
+@charset "utf-8";
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #FFF;
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	text-align: center;
+}
+
+img {
+	border: none;
+}
+
+#wrapper {
+	margin: auto;
+	width: 980px;
+	background: #FFF url("images/layout.png") repeat-y;
+}
+
+#left-section {
+	width: 230px;
+	color: #FFF;
+	float:left;
+}
+
+#corner {
+	width: 230px;
+	height: 125px;
+	background-image: url("images/corner.png");
+	text-align: left;
+	line-height: 28px;
+}
+
+#corner a {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#logo {
+	margin: 0px 0px 45px 0px;
+}
+
+#main-nav {
+	text-align: left;
+	margin-left: 20px;
+}
+
+#main-nav ul {
+	list-style-type: none;
+	padding-left: 27px;
+	font-weight: bold;
+}
+
+#main-nav ul a {
+	color: #FFF;
+	display: block;
+	padding: 3px 3px 3px 9px;
+	text-decoration: none;
+	font-weight: bold;
+	background-image:url("images/slash-white.png");
+	background-position:left;
+	background-repeat:no-repeat;
+}
+
+/*
+#main-nav li:hover:first-letter {
+	color: red;
+}
+*/
+
+#main-nav ul a:hover {
+	background-image:url("images/slash-red.png");
+}
+
+.studije {
+	font-size: 11px;
+	color: gray;
+}
+
+#right-section {
+	width: 750px;
+	float: left;
+	margin-bottom: 30px;
+	line-height: 150%;
+}
+
+#right-section a {
+	font-weight: bold;
+	color: #000;
+}
+
+#right-section a:hover {
+	text-decoration: underline;
+}
+
+#header {
+	height: 125px;
+	width: 748px;
+	background-color: #E0E0E0;
+}
+
+#header img {
+	margin-top: 8px;
+	margin-bottom: -5px;
+}
+
+h1 {
+	margin: 0px 20px 20px 20px;
+	font-size: 26px;
+	line-height: 100%;
+}
+
+.h1gray {
+	color: #888;
+	font-size: 20px;
+}
+
+h2 {
+	margin: 60px 20px 60px 20px;
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 15px;
+}
+
+h4 {
+	font-size: 13px;
+}
+
+#horiz-nav {
+	margin:auto;
+}
+
+#horiz-nav a {
+	font-size: 14px;
+ 	display: inline-block;
+	height: 40px;
+	text-decoration: none;
+	vertical-align: middle;
+	line-height: 40px;
+ 	padding: 0px 5px 0px 5px;
+	margin: 10px 0px 20px 0px;
+}
+
+#content {
+	text-align: left;
+	width: 660px;
+	margin: auto;
+}
+
+#content table {
+	width: 92%;
+	text-align: left;
+	margin: auto;
+	margin-bottom: 30px;
+	border-collapse: collapse;
+}
+
+table td {
+	border-style: solid;
+	border-color: #DDD;
+	border-width: 1px;
+}
+
+#content strong {
+	color: #444;
+}
+
+.nastavnici img {
+	margin: 10px 10px 10px 0px;
+}
+
+.nastavnici td {
+	border-width: 1px 0px 1px 0px;
+	padding: 3px 3px 3px 8px;
+}
+
+.info-table td {
+	padding: 3px 3px 3px 8px;
+}
+
+.info {
+	width: 90%;
+	margin: auto;
+	text-align: left;
+	clear: both;
+}
+
+.info h3, p {
+	margin-top: 10px;
+}
+
+.info h3 {
+	margin-right: 5%;
+	width: 22%;
+	float: left;
+}
+
+.txt {
+	width: 73%;
+	float:left;
+}
+
+.center {
+	text-align: center;
+	padding-bottom: 10px;
+	border-bottom: 1px #DDD solid;
+}
+
+.regular {
+	margin: 30px 0px 40px 0px;
+}
+
+#footer {
+	width: 100%;
+	clear: both;
+	color: white;
+	background-color: #000;
+	text-align: right;
+}
+
+#footer p {
+	padding: 10px 10px 10px 0px;
+}
